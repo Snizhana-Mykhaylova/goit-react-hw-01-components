@@ -4,15 +4,15 @@
   align-items: center;
   justify-content: center;
 
-  width: 200px;
-  height: 100px;
+  max-width: 300px;
+
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
+  padding: 30px;
 
   text-align: center;
 
-  font-size: 12px;
   background-color: white;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -20,7 +20,8 @@
 .item {
   display: flex;
   flex-direction: column;
-  width: 30px;
+  width: calc(100% / 5);
+  padding: 10px;
 }
 
 .title {

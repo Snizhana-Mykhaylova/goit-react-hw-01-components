@@ -3,6 +3,8 @@ body {
   padding: 10px;
   line-height: 1.17;
   background: #eeeeec;
+
+  font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
