@@ -1,0 +1,39 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+
+  text-align: center;
+
+  font-size: 12px;
+  background-color: white;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 16px;
+}
+
+.statList {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
