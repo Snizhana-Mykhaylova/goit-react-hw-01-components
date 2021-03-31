@@ -11,7 +11,7 @@ function rgbaRandom() {
   return rgb;
 }
 
-const statistics = ({ title, stats }) => (
+const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
     {title ? <h2 className={styles.title}>{title}</h2> : null}
 
@@ -30,7 +30,7 @@ const statistics = ({ title, stats }) => (
   </section>
 );
 
-statistics.propTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
@@ -41,4 +41,4 @@ statistics.propTypes = {
   ),
 };
 
-export default statistics;
+export default Statistics;

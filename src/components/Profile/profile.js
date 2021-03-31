@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import styles from './profile.module.css';
-import defaultImage from '../user-5.png';
+import defaultImage from './user-default.png';
 
-const profile = ({
+const Profile = ({
   name,
   tag,
   location,
@@ -34,12 +34,12 @@ const profile = ({
   </div>
 );
 
-profile.defaultProps = {
+Profile.defaultProps = {
   avatar: defaultImage,
   stats: { followers: 0, views: 0, likes: 0 },
 };
 
-profile.propTypes = {
+Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
@@ -51,4 +51,4 @@ profile.propTypes = {
   }).isRequired,
 };
 
-export default profile;
+export default Profile;
